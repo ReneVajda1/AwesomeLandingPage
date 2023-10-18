@@ -1,0 +1,103 @@
+h1 {color: rgb(10, 116, 10);}
+
+
+.container{
+  font-family:'Open Sans';
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  color:black;
+  }
+
+.newsletter-form #email {
+  display:block;
+  width:100%;
+  border: solid thin #cfcfcf;
+  height:30px;
+  margin-top:5px;
+  padding-left:5px;
+  border-radius:3px;
+  box-sizing: border-box;
+}
+
+.newsletter-form button {
+  display:block;
+  width:100%;
+  background: #3cb878;
+  border: #3cb878;
+  color: white;
+  height:30px;
+  margin-top:5px;
+}
+
+
+
+
+
+p {
+  display:inline;
+}
+
+#terms {
+  position:relative;
+  top:0px;
+  left: 0px;
+}
+
+.newsletter-form {
+  border: solid thin #cfcfcf;
+  padding: 10px;
+  border-radius:3px;
+  position:relative;
+  margin: 4px
+}
+
+.newsletter-form h3 {
+  margin-top: 0px;
+  color:green;
+}
+
+.closing-x {
+  position:absolute;
+  top:0px;
+  right:5px;
+}
+
+#question-circle {
+  height: 100px;
+  width: 100px;
+  background-color: #3cb878;
+  border-radius: 50%;
+  font-size:70px;
+  text-align: center;
+  color: #fff;
+  
+  position:fixed;
+  bottom:10px;
+  right:10px;
+}
+
+.closing-x button {
+  background-color:#fff;
+  color: black;
+  cursor:pointer;
+}
+
+.card {
+  width: 180px;
+  background-color: #3cb878;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 5px 2px gray;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  
+}
+
+.card-holder {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+ 
+}
